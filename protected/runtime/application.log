@@ -1,0 +1,1688 @@
+2018/12/25 03:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\jackcsm\www\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#3 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#4 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=test
+---
+2018/12/25 04:46:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\jackcsm\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/create')
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/web/index.php?r=test/create
+---
+2018/12/25 04:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create?a=b".' in D:\jackcsm\www\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(270): CController->missingAction('create?a=b')
+#1 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('create?a=b')
+#2 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/create?a=b')
+#3 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#4 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=test/create?a=b&c=d
+---
+2018/12/25 04:46:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\jackcsm\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/create')
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/web/index.php?r=test/create&a=b&c=d
+---
+2018/12/25 04:47:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\jackcsm\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/create')
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/web/index.php?r=test/create&a=b&c=d
+---
+2018/12/25 04:47:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\jackcsm\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/create/a')
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/web/index.php?r=test/create/a
+---
+2018/12/25 04:47:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\jackcsm\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/create')
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/web/index.php?r=test/create&a
+---
+2018/12/25 05:01:54 [error] [exception.InvalidArgumentException] exception 'InvalidArgumentException' with message 'error' in D:\jackcsm\www\web\protected\controllers\TestController.php:41
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CInlineFilter.php(58): TestController->filterUpdateFilter(Object(CFilterChain))
+#1 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/update')
+#6 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#7 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/web/index.php?r=test/update
+---
+2018/12/25 05:02:54 [error] [exception.InvalidArgumentException] exception 'InvalidArgumentException' with message 'error' in D:\jackcsm\www\web\protected\controllers\TestController.php:42
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CInlineFilter.php(58): TestController->filterUpdateFilter(Object(CFilterChain))
+#1 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/update')
+#6 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#7 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/web/index.php?r=test/update
+---
+2018/12/25 05:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "db".' in D:\jackcsm\www\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(270): CController->missingAction('db')
+#1 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('db')
+#2 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/db')
+#3 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#4 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=test/db
+---
+2018/12/25 05:44:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'. The SQL statement executed was: insert into test(id,name) values(6,'tom').
+in D:\jackcsm\www\web\protected\controllers\TestController.php (117)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 05:45:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'. The SQL statement executed was: insert into test(id,name) values(6,'tom').
+in D:\jackcsm\www\web\protected\controllers\TestController.php (117)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 05:45:00 [error] [exception.RuntimeException] exception 'RuntimeException' with message '插入失败' in D:\jackcsm\www\web\protected\controllers\TestController.php:125
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->Actiontransaction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('transaction')
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/transactio...')
+#7 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#8 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/web/index.php?r=test/transaction
+---
+2018/12/25 05:51:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'. The SQL statement executed was: insert into test(id,name) values(6,'tom').
+in D:\jackcsm\www\web\protected\controllers\TestController.php (117)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 05:51:51 [error] [exception.RuntimeException] exception 'RuntimeException' with message '插入失败' in D:\jackcsm\www\web\protected\controllers\TestController.php:125
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->Actiontransaction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('transaction')
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/transactio...')
+#7 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#8 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/web/index.php?r=test/transaction
+---
+2018/12/25 05:54:10 [error] [php] Only variables should be passed by reference (D:\jackcsm\www\web\protected\controllers\TestController.php:133)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/bindparam
+in D:\jackcsm\www\web\protected\controllers\TestController.php (133)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:00:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO test(id,name) VALUES(:id,:name).
+in D:\jackcsm\www\web\protected\controllers\TestController.php (136)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:00:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO test(id,name) VALUES(:id,:name)' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\TestController.php(136): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionbindparam()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('bindparam')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/bindparam')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=test/bindparam
+---
+2018/12/25 06:05:39 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.rttest' doesn't exist. The SQL statement executed was: select * from rttest.
+in D:\jackcsm\www\web\protected\controllers\TestController.php (159)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:05:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.rttest' doesn't exist. The SQL statement executed was: select * from rttest' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(159): CDbCommand->query()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionprefix()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('prefix')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/prefix')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/prefix
+---
+2018/12/25 06:05:56 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.rt_test' doesn't exist. The SQL statement executed was: select * from rt_test.
+in D:\jackcsm\www\web\protected\controllers\TestController.php (159)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:05:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.rt_test' doesn't exist. The SQL statement executed was: select * from rt_test' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(159): CDbCommand->query()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionprefix()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('prefix')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/prefix')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/prefix
+---
+2018/12/25 06:23:49 [error] [exception.CException] exception 'CException' with message 'CDbConnection and its behaviors do not have a method or closure named "select".' in D:\jackcsm\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\QueryController.php(9): CComponent->__call('select', Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(9): CDbConnection->select('id,name')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionIndex()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/
+---
+2018/12/25 06:24:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'. The SQL statement executed was: SELECT `id`, `name`.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (9)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:24:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'. The SQL statement executed was: SELECT `id`, `name`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(9): CDbCommand->queryAll()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionIndex()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/
+---
+2018/12/25 06:30:34 [error] [exception.CException] exception 'CException' with message 'CDbConnection and its behaviors do not have a method or closure named "select".' in D:\jackcsm\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\QueryController.php(16): CComponent->__call('select', Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(16): CDbConnection->select()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('select')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/select')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/select
+---
+2018/12/25 06:36:48 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.user' doesn't exist. The SQL statement executed was: SELECT `name`, `id`
+FROM `test`, `user`.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (24)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:36:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.user' doesn't exist. The SQL statement executed was: SELECT `name`, `id`
+FROM `test`, `user`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(24): CDbCommand->queryRow()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('select')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/select')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/select
+---
+2018/12/25 06:39:19 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in field list is ambiguous. The SQL statement executed was: SELECT `name`, `id`
+FROM `test`, `user`.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (24)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:39:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in field list is ambiguous. The SQL statement executed was: SELECT `name`, `id`
+FROM `test`, `user`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(24): CDbCommand->queryRow()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('select')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/select')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/select
+---
+2018/12/25 06:43:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'test.name' in 'field list'. The SQL statement executed was: SELECT `test`.`name`, `test`.`id`, `user`.`name` AS `uname`, `user`.`id` AS `uid`
+FROM `test` `t`, `user` `u`.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (27)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:43:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'test.name' in 'field list'. The SQL statement executed was: SELECT `test`.`name`, `test`.`id`, `user`.`name` AS `uname`, `user`.`id` AS `uid`
+FROM `test` `t`, `user` `u`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(27): CDbCommand->queryAll()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('select')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/select')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/select
+---
+2018/12/25 06:45:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.id' in 'field list'. The SQL statement executed was: SELECT `t`.`name`, `t`.`id`, `u`.`name` AS `uname`, `u`.`id` AS `uid`
+FROM `test` `t`, (select name from user) u.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (28)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 06:45:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.id' in 'field list'. The SQL statement executed was: SELECT `t`.`name`, `t`.`id`, `u`.`name` AS `uname`, `u`.`id` AS `uid`
+FROM `test` `t`, (select name from user) u' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(28): CDbCommand->queryAll()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('select')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/select')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/select
+---
+2018/12/25 07:03:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jack' in 'where clause'. The SQL statement executed was: SELECT `t`.`id`, `t`.`name`
+FROM (select * from test) t
+WHERE (id=1) AND ((name=jack) OR (name=tom)).
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (41)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 07:03:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jack' in 'where clause'. The SQL statement executed was: SELECT `t`.`id`, `t`.`name`
+FROM (select * from test) t
+WHERE (id=1) AND ((name=jack) OR (name=tom))' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(41): CDbCommand->queryAll()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('where')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/where')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/where
+---
+2018/12/25 07:06:13 [error] [exception.CDbException] exception 'CDbException' with message 'Unknown operator "NOTIN".' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:1574
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(780): CDbCommand->processConditions(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(43): CDbCommand->where(Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('where')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/where')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/where
+---
+2018/12/25 07:12:41 [error] [exception.CDbException] exception 'CDbException' with message 'Unknown operator "BETWEEN".' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:1574
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(780): CDbCommand->processConditions(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(49): CDbCommand->where(Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('where')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/where')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/where
+---
+2018/12/25 07:13:55 [error] [exception.CDbException] exception 'CDbException' with message 'Unknown operator "NOT BETWEEN".' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:1574
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(780): CDbCommand->processConditions(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(50): CDbCommand->where(Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('where')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/where')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/where
+---
+2018/12/25 07:24:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jack' in 'where clause'. The SQL statement executed was: SELECT `t`.`id`, `t`.`name`
+FROM (select * from test) t
+WHERE (id=:id1) AND (name=jack).
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (55)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 07:24:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jack' in 'where clause'. The SQL statement executed was: SELECT `t`.`id`, `t`.`name`
+FROM (select * from test) t
+WHERE (id=:id1) AND (name=jack)' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(55): CDbCommand->queryAll()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('where')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/where')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/where
+---
+2018/12/25 07:24:57 [error] [php] Undefined offset: 0 (D:\jackcsm\www\yii\framework\db\CDbCommand.php:1518)
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\QueryController.php(56): CDbCommand->andWhere()
+#1 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(286): QueryController->runAction()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(265): QueryController->runActionWithFilters()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): QueryController->run()
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#8 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=query/where
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (56)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 07:30:03 [error] [php] Array to string conversion (D:\jackcsm\www\web\protected\controllers\QueryController.php:63)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(286): QueryController->runAction()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): QueryController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): QueryController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=query/where
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (63)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 07:49:53 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "createCommand".' in D:\jackcsm\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\QueryController.php(80): CComponent->__call('createCommand', Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(80): CDbCommand->createCommand(Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionwhere()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('where')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/where')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/where
+---
+2018/12/25 08:01:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '100' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `name`) VALUES (:id, :name).
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (93)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:01:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '100' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`id`, `name`) VALUES (:id, :name)' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(93): CDbCommand->insert('user', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actioninsert()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('insert')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/insert')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/insert
+---
+2018/12/25 08:01:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:01:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:02:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id.
+in D:\jackcsm\www\web\protected\controllers\QueryController.php (102)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:02:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: UPDATE `user` SET `name`=:name WHERE id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1313): CDbCommand->execute(Array)
+#1 D:\jackcsm\www\web\protected\controllers\QueryController.php(102): CDbCommand->update('user', Array, 'id=:id', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): QueryController->actionupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('query/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=query/update
+---
+2018/12/25 08:17:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `test` (`id`, `name`) VALUES (:yp0, :yp1).
+in D:\jackcsm\www\web\protected\controllers\TestController.php (169)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:17:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `test` (`id`, `name`) VALUES (:yp0, :yp1)' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 D:\jackcsm\www\web\protected\controllers\TestController.php(169): CActiveRecord->save()
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarsave()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arsave')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arsave')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=test/arsave
+---
+2018/12/25 08:21:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '30' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `test` (`id`, `name`) VALUES (:yp0, :yp1).
+in D:\jackcsm\www\web\protected\controllers\TestController.php (169)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:21:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '30' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `test` (`id`, `name`) VALUES (:yp0, :yp1)' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 D:\jackcsm\www\web\protected\controllers\TestController.php(169): CActiveRecord->save()
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarsave()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arsave')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arsave')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=test/arsave
+---
+2018/12/25 08:25:47 [error] [php] Object of class Test could not be converted to string (D:\jackcsm\www\web\protected\controllers\TestController.php:178)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (178)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:31:34 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:180)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (180)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:32:19 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:180)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (180)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:42:07 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:193)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (193)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:42:36 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:193)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (193)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:42:38 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:193)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (193)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:44:15 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:193)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (193)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:44:29 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:192)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (192)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:48:37 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:194)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (194)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:50:02 [error] [php] Invalid argument supplied for foreach() (D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:673)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarselect()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#8 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (194)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:50:43 [error] [exception.CDbException] exception 'CDbException' with message 'Table "test" does not have a column named "0".' in D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:697
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1526): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(194): CActiveRecord->findByAttributes(Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arselect')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arselect')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arselect
+---
+2018/12/25 08:53:07 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:195)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (195)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:54:37 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:197)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (197)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:54:56 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:197)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (197)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:55:46 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:197)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (197)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 08:59:22 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:201)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (201)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:03:00 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'in')
+#1 D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php(664): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1543): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, Array, Array, '`t`.')
+#4 D:\jackcsm\www\web\protected\controllers\TestController.php(201): CActiveRecord->findAllByAttributes(Array, Array)
+#5 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarselect()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arselect')
+#11 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arselect')
+#12 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#13 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/web/index.php?r=test/arselect
+---
+2018/12/25 09:05:36 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'in')
+#1 D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1605): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\jackcsm\www\web\protected\controllers\TestController.php(211): CActiveRecord->count(Array)
+#4 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarselect()
+#5 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arselect')
+#10 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arselect')
+#11 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#12 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/web/index.php?r=test/arselect
+---
+2018/12/25 09:06:41 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "count".' in D:\jackcsm\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\TestController.php(213): CComponent->__call('count', Array)
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(213): CDbCommand->count()
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarselect()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arselect')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arselect')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arselect
+---
+2018/12/25 09:07:22 [error] [php] Array to string conversion (D:\jackcsm\www\web\protected\controllers\TestController.php:214)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (214)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:07:35 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:214)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (214)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:08:52 [error] [php] json_decode() expects parameter 1 to be string, array given (D:\jackcsm\www\web\protected\controllers\TestController.php:216)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#7 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (216)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:09:57 [error] [php] Missing argument 1 for CActiveRecord::findByPk(), called in D:\jackcsm\www\web\protected\controllers\TestController.php on line 218 and defined (D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php:1489)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#7 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arselect
+in D:\jackcsm\www\web\protected\controllers\TestController.php (218)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:18:10 [error] [exception.CException] exception 'CException' with message 'Test and its behaviors do not have a method or closure named "order".' in D:\jackcsm\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('order', Array)
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(233): CActiveRecord->__call('order', Array)
+#2 D:\jackcsm\www\web\protected\controllers\TestController.php(233): Test->order('id desc')
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/25 09:20:17 [error] [exception.CDbException] exception 'CDbException' with message 'No columns are being updated for table "test".' in D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:395
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1755): CDbCommandBuilder->createUpdateCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1130): CActiveRecord->updateByPk(NULL, Array)
+#2 D:\jackcsm\www\web\protected\controllers\TestController.php(237): CActiveRecord->update(Array)
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/25 09:21:35 [error] [exception.CDbException] exception 'CDbException' with message 'No columns are being updated for table "test".' in D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:395
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1755): CDbCommandBuilder->createUpdateCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1130): CActiveRecord->updateByPk(NULL, Array)
+#2 D:\jackcsm\www\web\protected\controllers\TestController.php(237): CActiveRecord->update(Array, 'id=:id', Array)
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/25 09:21:36 [error] [exception.CDbException] exception 'CDbException' with message 'No columns are being updated for table "test".' in D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:395
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1755): CDbCommandBuilder->createUpdateCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1130): CActiveRecord->updateByPk(NULL, Array)
+#2 D:\jackcsm\www\web\protected\controllers\TestController.php(237): CActiveRecord->update(Array, 'id=:id', Array)
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/25 09:27:12 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.name" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('name', 'lulu')
+#1 D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1791): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\jackcsm\www\web\protected\controllers\TestController.php(239): CActiveRecord->updateCounters(Array, Array)
+#4 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#5 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#10 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#11 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#12 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/25 09:28:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'. The SQL statement executed was: UPDATE `test` SET `id`=`id`+1 WHERE name=:name.
+in D:\jackcsm\www\web\protected\controllers\TestController.php (239)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:28:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'. The SQL statement executed was: UPDATE `test` SET `id`=`id`+1 WHERE name=:name' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1793): CDbCommand->execute()
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(239): CActiveRecord->updateCounters(Array, 'name=:name', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/25 09:30:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=32' at line 1. The SQL statement executed was: UPDATE `test` SET `id`=`id`+1 WHERE name=:name,id=:id.
+in D:\jackcsm\www\web\protected\controllers\TestController.php (239)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/25 09:30:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=32' at line 1. The SQL statement executed was: UPDATE `test` SET `id`=`id`+1 WHERE name=:name,id=:id' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1793): CDbCommand->execute()
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(239): CActiveRecord->updateCounters(Array, 'name=:name,id=:...', Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarupdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arupdate')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arupdate')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arupdate
+---
+2018/12/26 00:56:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.{{post}}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{{post}}`.
+in D:\jackcsm\www\web\protected\controllers\PostController.php (20)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 00:56:16 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{post}}" for active record class "Post" cannot be found in the database.' in D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Post))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\jackcsm\www\web\protected\controllers\PostController.php(20): CActiveRecord->__construct()
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionsave()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('save')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/save')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=post/save
+---
+2018/12/26 01:00:46 [error] [php] Illegal offset type in isset or empty (D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php:777)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionsave()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(286): PostController->runAction()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): PostController->run()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#7 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=post/save
+in D:\jackcsm\www\web\protected\controllers\PostController.php (30)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 01:03:43 [error] [exception.CException] exception 'CException' with message 'Property "Post.0" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 D:\jackcsm\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 D:\jackcsm\www\web\protected\controllers\PostController.php(36): CModel->offsetGet(0)
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionfind()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/find')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=post/find
+---
+2018/12/26 01:07:09 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `post` `t` WHERE id= LIMIT 1.
+in D:\jackcsm\www\web\protected\controllers\PostController.php (38)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 01:07:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `post` `t` WHERE id= LIMIT 1' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\jackcsm\www\web\protected\controllers\PostController.php(38): CActiveRecord->find('id=')
+#4 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionfind()
+#5 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/find')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=post/find
+---
+2018/12/26 01:08:10 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'in')
+#1 D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php(588): CDbCriteria->__construct(Array)
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1463): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\jackcsm\www\web\protected\controllers\PostController.php(40): CActiveRecord->find(Array)
+#4 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionfind()
+#5 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/find')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=post/find
+---
+2018/12/26 01:09:41 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'semiconductor' in 'where clause'. The SQL statement executed was: SELECT * FROM `post` `t` WHERE `t`.`id`='1' AND (title=semiconductor) LIMIT 1.
+in D:\jackcsm\www\web\protected\controllers\PostController.php (43)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 01:09:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'semiconductor' in 'where clause'. The SQL statement executed was: SELECT * FROM `post` `t` WHERE `t`.`id`='1' AND (title=semiconductor) LIMIT 1' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1359): CDbCommand->queryRow()
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1494): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\jackcsm\www\web\protected\controllers\PostController.php(43): CActiveRecord->findByPk(1, 'title=semicondu...')
+#4 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionfind()
+#5 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#9 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/find')
+#10 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#11 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=post/find
+---
+2018/12/26 01:11:23 [error] [exception.CDbException] exception 'CDbException' with message 'Table "post" does not have a column named "0".' in D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:697
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1526): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 D:\jackcsm\www\web\protected\controllers\PostController.php(45): CActiveRecord->findByAttributes(Array)
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionfind()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/find')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=post/find
+---
+2018/12/26 01:11:55 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\PostController.php:46)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\CController.php(286): PostController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#2 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): PostController->run()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#5 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=post/find
+in D:\jackcsm\www\web\protected\controllers\PostController.php (46)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 01:17:10 [error] [exception.CException] exception 'CException' with message 'Property "Post.0" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 D:\jackcsm\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 D:\jackcsm\www\web\protected\controllers\PostController.php(55): CModel->offsetGet(0)
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionfind()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/find')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=post/find
+---
+2018/12/26 01:23:15 [error] [exception.CDbException] exception 'CDbException' with message 'No columns are being updated for table "post".' in D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:395
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1755): CDbCommandBuilder->createUpdateCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1130): CActiveRecord->updateByPk(NULL, Array)
+#2 D:\jackcsm\www\web\protected\controllers\PostController.php(68): CActiveRecord->update(Array, 'id=:id', Array)
+#3 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionUpdate()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/update')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=post/update
+---
+2018/12/26 01:28:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: 'spider'. The SQL statement executed was: UPDATE `post` SET `title`=`title`+3 WHERE id=2.
+in D:\jackcsm\www\web\protected\controllers\PostController.php (73)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 01:28:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: 'spider'. The SQL statement executed was: UPDATE `post` SET `title`=`title`+3 WHERE id=2' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1793): CDbCommand->execute()
+#1 D:\jackcsm\www\web\protected\controllers\PostController.php(73): CActiveRecord->updateCounters(Array, 'id=2')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionUpdate()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/update')
+#8 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#9 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=post/update
+---
+2018/12/26 05:23:41 [error] [php] Invalid argument supplied for foreach() (D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:564)
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\PostController.php(107): Post->deleteAll()
+#1 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionbeforedelete()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(286): PostController->runAction()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): PostController->run()
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#8 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=post/beforedelete
+in D:\jackcsm\www\web\protected\controllers\PostController.php (107)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 05:24:21 [error] [php] Invalid argument supplied for foreach() (D:\jackcsm\www\yii\framework\db\schema\CDbCommandBuilder.php:564)
+Stack trace:
+#0 D:\jackcsm\www\web\protected\controllers\PostController.php(107): Post->deleteAll()
+#1 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): PostController->actionbeforedelete1()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(286): PostController->runAction()
+#4 D:\jackcsm\www\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#5 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): PostController->run()
+#6 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#8 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=post/beforedelete1
+in D:\jackcsm\www\web\protected\controllers\PostController.php (107)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:18:08 [error] [php] Object of class Post could not be converted to string (D:\jackcsm\www\web\protected\controllers\TestController.php:251)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (251)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:19:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in D:\jackcsm\www\web\protected\controllers\TestController.php (251)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:19:08 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_user" for active record class "User" cannot be found in the database.' in D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(387): CActiveRecord->getTableSchema()
+#3 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(282): CJoinElement->__construct(Object(CActiveFinder), Object(CBelongsToRelation), Object(CJoinElement), 1)
+#4 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), 'author')
+#5 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), 'author')
+#6 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(282): CActiveRecord->getActiveFinder('author')
+#7 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('author')
+#8 D:\jackcsm\www\web\protected\controllers\TestController.php(251): CActiveRecord->__get('author')
+#9 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#10 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#15 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#16 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#17 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:20:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in D:\jackcsm\www\web\protected\controllers\TestController.php (251)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:20:05 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_user" for active record class "User" cannot be found in the database.' in D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(387): CActiveRecord->getTableSchema()
+#3 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(282): CJoinElement->__construct(Object(CActiveFinder), Object(CBelongsToRelation), Object(CJoinElement), 1)
+#4 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), 'author')
+#5 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), 'author')
+#6 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(282): CActiveRecord->getActiveFinder('author')
+#7 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('author')
+#8 D:\jackcsm\www\web\protected\controllers\TestController.php(251): CActiveRecord->__get('author')
+#9 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#10 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#15 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#16 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#17 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:20:36 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:251)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (251)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:24:30 [error] [exception.CException] exception 'CException' with message 'Property "Post.categoryies" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('categoryies')
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(253): CActiveRecord->__get('categoryies')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:25:40 [error] [php] Array to string conversion (D:\jackcsm\www\web\protected\controllers\TestController.php:253)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (253)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:29:41 [error] [php] Array to string conversion (D:\jackcsm\www\web\protected\controllers\TestController.php:255)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (255)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:30:15 [error] [exception.CException] exception 'CException' with message 'Property "Post.name" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(255): CActiveRecord->__get('name')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:31:12 [error] [exception.CException] exception 'CException' with message 'Property "Post.name" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(258): CActiveRecord->__get('name')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:31:33 [error] [exception.CException] exception 'CException' with message 'Property "User.name" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(258): CActiveRecord->__get('name')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:35:34 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "author,categoryies" is not defined in active record class "Post".' in D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'author,category...')
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), Array)
+#3 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 D:\jackcsm\www\web\protected\controllers\TestController.php(258): CActiveRecord->findAll()
+#6 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#12 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#13 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#14 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:35:54 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "author,categories" is not defined in active record class "Post".' in D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'author,categori...')
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), Array)
+#3 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 D:\jackcsm\www\web\protected\controllers\TestController.php(258): CActiveRecord->findAll()
+#6 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#12 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#13 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#14 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:36:54 [error] [exception.CException] exception 'CException' with message 'Property "Post.categoryies" is not defined.' in D:\jackcsm\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('categoryies')
+#1 D:\jackcsm\www\web\protected\controllers\TestController.php(262): CActiveRecord->__get('categoryies')
+#2 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#3 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#8 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#10 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:37:06 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:262)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (262)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:41:31 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "post" is not defined in active record class "User".' in D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'author.post')
+#1 D:\jackcsm\www\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), Array)
+#3 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 D:\jackcsm\www\yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 D:\jackcsm\www\web\protected\controllers\TestController.php(272): CActiveRecord->findAll()
+#6 D:\jackcsm\www\yii\framework\web\actions\CInlineAction.php(49): TestController->actionarelation()
+#7 D:\jackcsm\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\jackcsm\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): CController->run('arelation')
+#12 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/arelation')
+#13 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#14 D:\jackcsm\www\web\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/web/index.php?r=test/arelation
+---
+2018/12/26 06:42:01 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:275)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (275)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 06:42:34 [error] [php] Trying to get property of non-object (D:\jackcsm\www\web\protected\controllers\TestController.php:275)
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\web\filters\CFilterChain.php(134): TestController->runAction()
+#1 D:\jackcsm\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\jackcsm\www\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 D:\jackcsm\www\yii\framework\web\CWebApplication.php(282): TestController->run()
+#4 D:\jackcsm\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CWebApplication->processRequest()
+#6 D:\jackcsm\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=test/arelation
+in D:\jackcsm\www\web\protected\controllers\TestController.php (275)
+in D:\jackcsm\www\web\index.php (13)
+2018/12/26 07:27:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'web.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2018/12/26 08:43:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'web.tbl_news'. The SQL statement executed was: DROP TABLE `tbl_news`.
+2018/12/26 08:43:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'web.tbl_news'. The SQL statement executed was: DROP TABLE `tbl_news`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1375): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\db\CDbMigration.php(275): CDbCommand->dropTable('tbl_news')
+#2 D:\jackcsm\www\web\protected\migrations\m181226_071631_create_news_table.php(29): CDbMigration->dropTable('tbl_news')
+#3 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(464): m181226_071631_create_news_table->down()
+#4 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(145): MigrateCommand->migrateDown('m181226_071631_...')
+#5 [internal function]: MigrateCommand->actionDown(Array)
+#6 D:\jackcsm\www\yii\framework\console\CConsoleCommand.php(179): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 D:\jackcsm\www\yii\framework\console\CConsoleCommandRunner.php(76): CConsoleCommand->run(Array)
+#8 D:\jackcsm\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CConsoleApplication->processRequest()
+#10 D:\jackcsm\www\yii\framework\yiic.php(37): CApplication->run()
+#11 D:\jackcsm\www\web\protected\yiic.php(7): require_once('D:\\jackcsm\\www\\...')
+#12 {main}
+---
+2018/12/26 08:48:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_news' already exists. The SQL statement executed was: CREATE TABLE `tbl_news` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`title` varchar(255) NOT NULL,
+	`content` text,
+	`addTime` int
+).
+2018/12/26 08:48:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tbl_news' already exists. The SQL statement executed was: CREATE TABLE `tbl_news` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`title` varchar(255) NOT NULL,
+	`content` text,
+	`addTime` int
+)' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1352): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\db\CDbMigration.php(250): CDbCommand->createTable('tbl_news', Array, NULL)
+#2 D:\jackcsm\www\web\protected\migrations\m181226_084735_create_news_table.php(12): CDbMigration->createTable('tbl_news', Array)
+#3 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(431): m181226_084735_create_news_table->up()
+#4 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(109): MigrateCommand->migrateUp('m181226_084735_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 D:\jackcsm\www\yii\framework\console\CConsoleCommand.php(179): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 D:\jackcsm\www\yii\framework\console\CConsoleCommandRunner.php(76): CConsoleCommand->run(Array)
+#8 D:\jackcsm\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CConsoleApplication->processRequest()
+#10 D:\jackcsm\www\yii\framework\yiic.php(37): CApplication->run()
+#11 D:\jackcsm\www\web\protected\yiic.php(7): require_once('D:\\jackcsm\\www\\...')
+#12 {main}
+---
+2018/12/26 09:04:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'web.tbl_news'. The SQL statement executed was: DROP TABLE `tbl_news`.
+2018/12/26 09:04:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'web.tbl_news'. The SQL statement executed was: DROP TABLE `tbl_news`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1375): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\db\CDbMigration.php(275): CDbCommand->dropTable('tbl_news')
+#2 D:\jackcsm\www\web\protected\migrations\m181226_071631_create_news_table.php(29): CDbMigration->dropTable('tbl_news')
+#3 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(484): m181226_071631_create_news_table->down()
+#4 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(185): MigrateCommand->migrateDown('m181226_071631_...')
+#5 [internal function]: MigrateCommand->actionRedo(Array)
+#6 D:\jackcsm\www\yii\framework\console\CConsoleCommand.php(179): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 D:\jackcsm\www\yii\framework\console\CConsoleCommandRunner.php(76): CConsoleCommand->run(Array)
+#8 D:\jackcsm\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CConsoleApplication->processRequest()
+#10 D:\jackcsm\www\yii\framework\yiic.php(37): CApplication->run()
+#11 D:\jackcsm\www\web\protected\yiic.php(7): require_once('D:\\jackcsm\\www\\...')
+#12 {main}
+---
+2018/12/26 09:05:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'web.tbl_news'. The SQL statement executed was: DROP TABLE `tbl_news`.
+2018/12/26 09:05:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'web.tbl_news'. The SQL statement executed was: DROP TABLE `tbl_news`' in D:\jackcsm\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\jackcsm\www\yii\framework\db\CDbCommand.php(1375): CDbCommand->execute()
+#1 D:\jackcsm\www\yii\framework\db\CDbMigration.php(275): CDbCommand->dropTable('tbl_news')
+#2 D:\jackcsm\www\web\protected\migrations\m181226_071631_create_news_table.php(29): CDbMigration->dropTable('tbl_news')
+#3 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(484): m181226_071631_create_news_table->down()
+#4 D:\jackcsm\www\yii\framework\cli\commands\MigrateCommand.php(185): MigrateCommand->migrateDown('m181226_071631_...')
+#5 [internal function]: MigrateCommand->actionRedo(Array)
+#6 D:\jackcsm\www\yii\framework\console\CConsoleCommand.php(179): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 D:\jackcsm\www\yii\framework\console\CConsoleCommandRunner.php(76): CConsoleCommand->run(Array)
+#8 D:\jackcsm\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 D:\jackcsm\www\yii\framework\base\CApplication.php(186): CConsoleApplication->processRequest()
+#10 D:\jackcsm\www\yii\framework\yiic.php(37): CApplication->run()
+#11 D:\jackcsm\www\web\protected\yiic.php(7): require_once('D:\\jackcsm\\www\\...')
+#12 {main}
+---
