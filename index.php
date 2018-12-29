@@ -14,4 +14,18 @@ require_once($yii);
 //CApplication 【有构造器】
 //CModule 【有构造器】
 //CComponent【类的一些魔术方法如拦截器，__call等】
+
+//控制器基类
+//Controller
+//CController
+//CBaseController
+//CComponent
+
+/**
+AR类继承如下
+ * CActiveRecord
+ * CModel
+ * CComponent
+ * IteratorAggregate, ArrayAccess
+ **/
 Yii::createWebApplication($config)->run();

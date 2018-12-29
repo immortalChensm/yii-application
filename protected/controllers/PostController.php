@@ -84,7 +84,7 @@ class PostController extends Controller
     function actiontransaction()
     {
 
-        $post = Post::model();
+        $post        = Post::model();
         $transaction = $post->dbConnection->beginTransaction();
         try{
 
@@ -111,6 +111,18 @@ class PostController extends Controller
 
     function actionyii()
     {
+        new Post();
+        echo 'test ar';
+    }
 
+    function actionTest()
+    {
+        $news      = News::model();
+        $title     = Yii::app()->request->getParam('title');
+        $condition = ['title'=>$title];
+        $data      = $news->findByAttributes($condition);
+        echo CJSON::encode($data);
+
+        echo CJSON::encode((new News())->findByAttributes(['title'=>Yii::app()->request->getParam('title')]));
     }
 }
